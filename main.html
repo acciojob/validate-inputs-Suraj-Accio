@@ -8,7 +8,36 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+    <!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<!-- the entire body must be written by student -->
+	
+	<h3>Validation Form</h3>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" pattern="[A-Za-z]{3,}" required>
+    <br><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+    <br><br>
+    <label for="phone">Phone:</label><br>
+    <input type="text" id="phone" name="phone" pattern="[0-9]{10}" required>
+    <br><br>
+    <input type="submit" value="Submit">  
+    
+	<script type="text/javascript" src="./script.js">
+</script>
+
+</body>
+
+</html>
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
